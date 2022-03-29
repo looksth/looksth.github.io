@@ -20,30 +20,38 @@
     var CONFIG = {"hostname":"looksth.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="活到老学到老">
-<meta property="og:type" content="website">
-<meta property="og:title" content="学习笔记">
-<meta property="og:url" content="https://looksth.github.io/index.html">
+  <meta name="description" content="注册github账号  点击右上角+号，选择New repository Owner 默认为你的账号 &#x2F; Repository name 那一栏填上looksth.github.io（looksth替换为你自己的name） 选择Public 选择Add a README file最后确定下载必要软件及文件 下载git 官方地址：https:&#x2F;&#x2F;git-scm.com&#x2F; 安装对应的版本 输入：git">
+<meta property="og:type" content="article">
+<meta property="og:title" content="用hexo在github上搭建个人blog">
+<meta property="og:url" content="https://looksth.github.io/2022/03/28/build-blog/index.html">
 <meta property="og:site_name" content="学习笔记">
-<meta property="og:description" content="活到老学到老">
+<meta property="og:description" content="注册github账号  点击右上角+号，选择New repository Owner 默认为你的账号 &#x2F; Repository name 那一栏填上looksth.github.io（looksth替换为你自己的name） 选择Public 选择Add a README file最后确定下载必要软件及文件 下载git 官方地址：https:&#x2F;&#x2F;git-scm.com&#x2F; 安装对应的版本 输入：git">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s1.ax1x.com/2022/03/29/qyfSld.jpg">
+<meta property="article:published_time" content="2022-03-28T12:52:15.000Z">
+<meta property="article:modified_time" content="2022-03-29T11:45:01.240Z">
 <meta property="article:author" content="Looksth">
+<meta property="article:tag" content="博客搭建">
+<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="next">
+<meta property="article:tag" content="github">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s1.ax1x.com/2022/03/29/qyfSld.jpg">
 
-<link rel="canonical" href="https://looksth.github.io/">
+<link rel="canonical" href="https://looksth.github.io/2022/03/28/build-blog/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>学习笔记</title>
+  <title>用hexo在github上搭建个人blog | 学习笔记</title>
   
 
 
@@ -162,9 +170,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -180,10 +189,9 @@
       <meta itemprop="name" content="学习笔记">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2022/03/28/build-blog/" class="post-title-link" itemprop="url">用hexo在github上搭建个人blog</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          用hexo在github上搭建个人blog
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -222,7 +230,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h4 id="注册github账号"><a href="#注册github账号" class="headerlink" title="注册github账号"></a>注册github账号</h4><p><img src="https://s1.ax1x.com/2022/03/29/qyfSld.jpg" alt="https://s1.ax1x.com/2022/03/29/qyfSld.jpg"></p>
+        <h4 id="注册github账号"><a href="#注册github账号" class="headerlink" title="注册github账号"></a>注册github账号</h4><p><img src="https://s1.ax1x.com/2022/03/29/qyfSld.jpg" alt="https://s1.ax1x.com/2022/03/29/qyfSld.jpg"></p>
 <ol>
 <li>点击右上角+号，选择New repository</li>
 <li>Owner 默认为你的账号 / Repository name 那一栏填上<strong>looksth.github.io</strong>（<font color=red><strong>looksth</strong></font>替换为你自己的name）</li>
@@ -257,21 +265,29 @@
 </ul>
 <p>===============有空就学习===================================</p>
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
+          <div class="post-tags">
+              <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" rel="tag"># 博客搭建</a>
+              <a href="/tags/hexo/" rel="tag"># hexo</a>
+              <a href="/tags/next/" rel="tag"># next</a>
+              <a href="/tags/github/" rel="tag"># github</a>
+          </div>
+
+        
+
+
+        
       </footer>
+    
   </article>
   
   
-  
-
-
   
 
 
@@ -324,6 +340,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8%E5%86%8Cgithub%E8%B4%A6%E5%8F%B7"><span class="nav-number">1.</span> <span class="nav-text">注册github账号</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E5%BF%85%E8%A6%81%E8%BD%AF%E4%BB%B6%E5%8F%8A%E6%96%87%E4%BB%B6"><span class="nav-number">2.</span> <span class="nav-text">下载必要软件及文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#git%E9%85%8D%E7%BD%AEssh-key"><span class="nav-number">3.</span> <span class="nav-text">git配置ssh key</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2"><span class="nav-number">4.</span> <span class="nav-text">创建博客</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9C%80%E5%90%8E"><span class="nav-number">5.</span> <span class="nav-text">最后</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
